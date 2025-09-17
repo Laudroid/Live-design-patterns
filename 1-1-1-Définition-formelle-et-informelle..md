@@ -43,7 +43,7 @@ class Singleton {
 
 Ce pattern est utile lorsqu'une ressource partagée unique est nécessaire, comme une connexion à une base de données ou un gestionnaire de configuration.
 
-### Exemple illustré avec un diagramme Mermaid
+### Exemple illustré
 
 ```mermaid
 classDiagram

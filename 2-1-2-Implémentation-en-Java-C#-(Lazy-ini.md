@@ -149,7 +149,7 @@ public sealed class Singleton {
 
 ---
 
-## Synthèse – diagramme Mermaid du flux d'accès Singleton (avec double-check locking)
+## Synthèse – flux d'accès Singleton (avec double-check locking)
 
 ```mermaid
 flowchart TD

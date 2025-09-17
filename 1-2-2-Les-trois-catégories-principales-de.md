@@ -38,7 +38,7 @@ Définir comment composer et organiser les classes et objets en structures plus 
 
 ---
 
-### Exemple de Diagramme Mermaid — Composite
+### Exemple — Composite
 
 ```mermaid
 classDiagram

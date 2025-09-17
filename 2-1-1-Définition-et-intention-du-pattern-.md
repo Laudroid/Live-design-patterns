@@ -43,7 +43,7 @@ class Singleton {
 
 ---
 
-### Diagramme UML Mermaid illustrant le Singleton
+### Diagramme UML illustrant le Singleton
 
 ```mermaid
 classDiagram
