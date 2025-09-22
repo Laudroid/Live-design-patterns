@@ -112,7 +112,7 @@ Contrairement au Builder, l’Abstract Factory crée un **ensemble complet d’o
 
 ---
 
-## Diagramme Mermaid comparatif
+## Diagramme comparatif
 
 ```mermaid
 classDiagram

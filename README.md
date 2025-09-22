@@ -6,9 +6,7 @@
 - Identifier les catégories de Design Patterns (Création, Structure, Comportement).
 - Savoir appliquer les Design Patterns les plus courants pour résoudre des problèmes de conception.
 - Améliorer la maintenabilité, la flexibilité et la réutilisabilité du code.
-## Séance 1 : Session 1: Introduction aux Design Patterns
-
-**Durée :** 2 heures
+## 1: Introduction aux Design Patterns
 
 ### Objectifs pédagogiques
 
@@ -25,9 +23,7 @@
 
 - Présentation du "Gang of Four" (GoF) et de leur ouvrage fondateur.
 - Les trois catégories principales de Design Patterns : Création, Structure, Comportement.
-## Séance 2 : Session 2: Design Patterns de Création (Partie 1)
-
-**Durée :** 3 heures
+## 2: Design Patterns de Création (Partie 1)
 
 ### Objectifs pédagogiques
 
@@ -45,9 +41,7 @@
 - Définition et intention du pattern : définir une interface pour créer des objets, mais laisser les sous-classes décider quelle classe instancier.
 - Implémentation et diagrammes UML.
 - Avantages : découplage entre le client et la création d'objets, extensibilité.
-## Séance 3 : Session 3: Design Patterns de Création (Partie 2)
-
-**Durée :** 3 heures
+## 3: Design Patterns de Création (Partie 2)
 
 ### Objectifs pédagogiques
 
@@ -65,9 +59,7 @@
 - Définition et intention : construire un objet complexe pas à pas.
 - Implémentation du "fluent API" (méthodes chaînées).
 - Comparaison avec Abstract Factory et cas d'usage (construction d'objets avec de nombreux paramètres optionnels).
-## Séance 4 : Session 4: Design Patterns de Structure (Partie 1)
-
-**Durée :** 3 heures
+## 4: Design Patterns de Structure (Partie 1)
 
 ### Objectifs pédagogiques
 
@@ -85,9 +77,7 @@
 - Définition et intention : ajouter dynamiquement des responsabilités à un objet.
 - Principe d'encapsulation et composition.
 - Différence avec l'héritage et avantages en termes de flexibilité.
-## Séance 5 : Session 5: Design Patterns de Structure (Partie 2) & Comportement (Partie 1)
-
-**Durée :** 3 heures
+## 5: Design Patterns de Structure (Partie 2) & Comportement (Partie 1)
 
 ### Objectifs pédagogiques
 
