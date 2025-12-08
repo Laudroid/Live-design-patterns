@@ -1,0 +1,209 @@
+# Examen – Design Patterns
+
+Nom : 
+Prénom :
+
+## Partie 1 – QCM (20 minutes)
+
+**Consigne :** Une seule bonne réponse par question.
+
+**Q1.** Objectif du pattern Singleton :
+A. Créer plusieurs objets
+B. Garantir une instance unique
+C. Découpler les couches
+D. Ajouter dynamiquement des comportements
+
+Réponse :
+
+**Q2.** Factory Method permet de :
+A. Construire objet par objet
+B. Gérer une arborescence 
+C. Forcer l’héritage
+D. Déléguer l’instanciation aux sous-classes
+
+Réponse :
+
+**Q3.** Abstract Factory sert à :
+A. Créer un seul objet
+B. Créer des familles d’objets liés
+C. Ajouter des responsabilités
+D. Adapter une API
+
+Réponse :
+
+**Q4.** Adapter sert à :
+A. Enrichir un objet
+B. Fusionner deux classes
+C. Rendre compatibles des interfaces
+D. Simplifier une architecture
+
+Réponse :
+
+**Q5.** Decorator repose sur :
+A. La composition
+B. L’héritage
+C. Le typage dynamique
+D. La sérialisation
+
+Réponse :
+
+**Q6.** Observer est basé sur :
+A. Un sujet-à-un observateur
+B. Un sujet-à-plusieurs observateurs
+C. Plusieurs sujet-à-un observateurs
+D. Aucune relation
+
+Réponse :
+
+**Q7.** Le pattern **Builder** est particulièrement adapté lorsque :
+A. On veut adapter une interface 
+B. On veut garantir une instance unique
+C. On veut intercepter des appels
+D. Un objet possède de nombreux paramètres optionnels
+
+Réponse :
+
+**Q8.** Le pattern **Facade** a pour objectif principal de :
+A. Ajouter dynamiquement des fonctionnalités
+B. Observer des changements d’état
+C. Créer des objets complexes
+D. Simplifier l’accès à un sous-système complexe
+
+Réponse :
+
+**Q9.** Le pattern **Composite** permet de :
+A. Créer des objets uniques
+B. Traiter des objets simples de façon uniforme
+C. Ajouter des comportements à l’exécution
+D. Adapter des bibliothèques
+
+Réponse :
+
+**Q10.** Quelle est la principale différence entre **Decorator** et **Adapter** ?
+A. Decorator modifie l’interface, Adapter non
+B. Adapter ajoute des fonctionnalités, Decorator non
+C. Decorator enrichit un objet sans changer son interface
+D. Adapter fonctionne uniquement avec l’héritage
+
+Réponse :
+
+**Q11.** Quel pattern est le plus adapté pour gérer une liste d’abonnés à des événements ?
+A. Singleton
+B. Builder
+C. Observer
+D. Facade
+
+Réponse :
+
+**Q12.** Un risque du Singleton est :
+A. Le couplage fort et les difficultés de test
+B. La surcharge mémoire
+C. La lenteur des boucles
+D. L’incompatibilité avec l’héritage
+
+Réponse :
+
+
+---
+
+## Partie 2 – Compréhension + Analyse de code (45 minutes)
+
+### Q13 – Questions de compréhension
+
+**a)** Expliquez la différence entre **Decorator** et **Facade**.
+
+Réponse :
+
+**b)** Donnez un cas concret d’utilisation du pattern **Observer**. 
+
+Réponse :
+
+
+
+### Q14 – Analyse de code
+
+On donne le code suivant :
+
+```java
+public interface Shape {
+    void draw();
+}
+
+public class Circle implements Shape {
+    public void draw() {
+        System.out.println("Dessiner un cercle");
+    }
+}
+
+public class RedShape implements Shape {
+    private Shape shape;
+
+    public RedShape(Shape shape) {
+        this.shape = shape;
+    }
+
+    public void draw() {
+        shape.draw();
+        System.out.println("Ajouter une bordure rouge");
+    }
+}
+```
+
+**Questions :**
+a) Quel pattern est utilisé ? 
+
+Réponse :
+
+b) Expliquez le rôle de la classe `RedShape`. 
+
+Réponse :
+
+c) Donnez un exemple d'utilisation de ce pattern
+
+Réponse :
+
+
+
+
+### Q15 – Diagnostic de conception
+
+```java
+public class OrderService {
+    public void process() {
+        PaymentSystem payment = new PaymentSystem();
+        payment.pay();
+
+        DeliverySystem delivery = new DeliverySystem();
+        delivery.ship();
+    }
+}
+```
+
+**Questions :**
+a) Quel problème de conception observez-vous ? 
+
+Réponse :
+
+b) Quel pattern pourrait améliorer ce code ? Expliquez.
+
+Réponse :
+
+
+---
+
+## Partie 3 – Mini-projet (25 minutes)
+
+**Contexte :**
+Concevez un mini système de **gestion de commandes**.
+
+**Consignes :**
+
+* Utiliser **au moins deux design patterns** vus en cours.
+* Décrire :
+
+  * Les classes principales
+  * Les patterns choisis
+  * Leur rôle
+
+
+Réponse :
